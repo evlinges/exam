@@ -1,0 +1,17 @@
+/web/core/
+/web/modules/contrib/
+/web/themes/contrib/
+/web/sites/*/files/
+/web/sites/*/private/
+/web/sites/simpletest/
+/web/sites/*/settings*.php
+
+/vendor/
+/composer.lock
+
+/web/sites/default/settings.php
+/web/sites/default/settings.local.php
+
+.DS_Store
+*.log
+*.cache

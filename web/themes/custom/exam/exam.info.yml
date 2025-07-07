@@ -1,0 +1,19 @@
+name: Exam
+type: theme
+description: 'Custom theme based on Stark.'
+package: Custom
+core_version_requirement: ^10 || ^11
+base theme: stark
+libraries:
+  - exam/global-styling
+regions:
+  header: 'Header'
+  hero_slider: 'Hero Slider'
+  about: 'About'
+  services: 'Services'
+  projects: 'Projects'
+  team: 'Our Team'
+  news: 'News'
+  clients: 'Clients'
+  content: 'Content'
+  footer: 'Footer'
