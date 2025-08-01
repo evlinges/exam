@@ -1,0 +1,10 @@
+<nav id="block-exam-main-menu" class="contextual-region" role="navigation" aria-labelledby="block-exam-main-menu-menu">
+  <h2 class="visually-hidden" id="block-exam-main-menu-menu">Main navigation</h2>
+  <ul class="menu">
+    {% for item in items %}
+      <li class="menu-item{{ item.is_expanded ? ' expanded' : '' }}{{ item.is_active ? ' active' : '' }}">
+        <a href="{{ item.url }}" class="menu-link">{{ item.title }}</a>
+      </li>
+    {% endfor %}
+  </ul>
+</nav>
